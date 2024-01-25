@@ -1,0 +1,31 @@
+.root {
+    -fx-font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    -fx-background-color: #89CFF0;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16px;
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 5);
+}
+
+.button:hover {
+    -fx-background-color: #5DADE2;
+}
+
+.comboBox {
+    -fx-background-color: #EAECEE;
+    -fx-font-size: 14px;
+    -fx-font-weight: Bold;
+    -fx-background-radius: 15px;
+}
+
+.comboBox:hover {
+    -fx-background-color: #D6EAF8;
+}
+
+.anchorPane {
+    -fx-background-color: #F2F3F4;
+    -fx-background-radius: 10px;
+}
